@@ -4,7 +4,7 @@ import os
 import re
 import numpy as np
 from PIL import Image
-і
+
 def class_name(file_name):
     return re.match(r"[a-z]+", file_name).group()
 
