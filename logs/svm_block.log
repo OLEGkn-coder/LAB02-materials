@@ -1,0 +1,30 @@
+Images: 2527, removed duplicates with different labels: 6, left: 2521
+Split 'block': train 1763, val 380, test 378
+Features: 2206 per image
+C=1, gamma=0.0002: val macro F1 = 0.6634
+C=1, gamma=0.0005: val macro F1 = 0.7031
+C=1, gamma=0.001: val macro F1 = 0.7279
+C=1, gamma=0.002: val macro F1 = 0.6201
+C=1, gamma=0.005: val macro F1 = 0.2024
+C=3, gamma=0.0002: val macro F1 = 0.6914
+C=3, gamma=0.0005: val macro F1 = 0.7436
+C=3, gamma=0.001: val macro F1 = 0.7304
+C=3, gamma=0.002: val macro F1 = 0.6217
+C=3, gamma=0.005: val macro F1 = 0.1396
+C=10, gamma=0.0002: val macro F1 = 0.7095
+C=10, gamma=0.0005: val macro F1 = 0.7612
+C=10, gamma=0.001: val macro F1 = 0.7300
+C=10, gamma=0.002: val macro F1 = 0.6217
+C=10, gamma=0.005: val macro F1 = 0.1396
+C=30, gamma=0.0002: val macro F1 = 0.7144
+C=30, gamma=0.0005: val macro F1 = 0.7612
+C=30, gamma=0.001: val macro F1 = 0.7300
+C=30, gamma=0.002: val macro F1 = 0.6217
+C=30, gamma=0.005: val macro F1 = 0.1396
+C=100, gamma=0.0002: val macro F1 = 0.7164
+C=100, gamma=0.0005: val macro F1 = 0.7612
+C=100, gamma=0.001: val macro F1 = 0.7300
+C=100, gamma=0.002: val macro F1 = 0.6217
+C=100, gamma=0.005: val macro F1 = 0.1396
+Best: {'C': 10, 'gamma': 0.0005}
+[svm] test accuracy = 0.7619, macro F1 = 0.7214

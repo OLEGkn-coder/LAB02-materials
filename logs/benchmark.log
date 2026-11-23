@@ -1,0 +1,3 @@
+svm: 8.2 ms per image (122 images/s), model file 4.4 MB
+cnn: 5.8 ms per image (172 images/s), model file 3.4 MB
+effnet: 22.9 ms per image (44 images/s), model file 15.6 MB

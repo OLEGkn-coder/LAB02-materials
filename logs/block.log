@@ -1,0 +1,95 @@
+Images: 2527, removed duplicates with different labels: 6, left: 2521
+Split 'block': train 1763, val 380, test 378
+Features: 2206 per image
+C=1, gamma=0.0002: val macro F1 = 0.6634
+C=1, gamma=0.0005: val macro F1 = 0.7031
+C=1, gamma=0.001: val macro F1 = 0.7279
+C=1, gamma=0.002: val macro F1 = 0.6201
+C=1, gamma=0.005: val macro F1 = 0.2024
+C=3, gamma=0.0002: val macro F1 = 0.6914
+C=3, gamma=0.0005: val macro F1 = 0.7436
+C=3, gamma=0.001: val macro F1 = 0.7304
+C=3, gamma=0.002: val macro F1 = 0.6217
+C=3, gamma=0.005: val macro F1 = 0.1396
+C=10, gamma=0.0002: val macro F1 = 0.7095
+C=10, gamma=0.0005: val macro F1 = 0.7612
+C=10, gamma=0.001: val macro F1 = 0.7300
+C=10, gamma=0.002: val macro F1 = 0.6217
+C=10, gamma=0.005: val macro F1 = 0.1396
+C=30, gamma=0.0002: val macro F1 = 0.7144
+C=30, gamma=0.0005: val macro F1 = 0.7612
+C=30, gamma=0.001: val macro F1 = 0.7300
+C=30, gamma=0.002: val macro F1 = 0.6217
+C=30, gamma=0.005: val macro F1 = 0.1396
+C=100, gamma=0.0002: val macro F1 = 0.7164
+C=100, gamma=0.0005: val macro F1 = 0.7612
+C=100, gamma=0.001: val macro F1 = 0.7300
+C=100, gamma=0.002: val macro F1 = 0.6217
+C=100, gamma=0.005: val macro F1 = 0.1396
+Best: {'C': 10, 'gamma': 0.0005}
+[svm] test accuracy = 0.7619, macro F1 = 0.7214
+Images: 2527, removed duplicates with different labels: 6, left: 2521
+Split 'block': train 1763, val 380, test 378
+Device: cpu
+epoch 1: loss 1.621, val acc 0.497, val F1 0.462 (24 s)
+epoch 2: loss 1.458, val acc 0.389, val F1 0.399 (24 s)
+epoch 3: loss 1.453, val acc 0.518, val F1 0.515 (24 s)
+epoch 4: loss 1.450, val acc 0.358, val F1 0.375 (24 s)
+epoch 5: loss 1.452, val acc 0.463, val F1 0.429 (24 s)
+epoch 6: loss 1.475, val acc 0.411, val F1 0.417 (25 s)
+epoch 7: loss 1.439, val acc 0.429, val F1 0.368 (24 s)
+epoch 8: loss 1.479, val acc 0.453, val F1 0.420 (24 s)
+epoch 9: loss 1.429, val acc 0.471, val F1 0.422 (24 s)
+epoch 10: loss 1.420, val acc 0.289, val F1 0.268 (23 s)
+epoch 11: loss 1.431, val acc 0.518, val F1 0.498 (24 s)
+epoch 12: loss 1.417, val acc 0.492, val F1 0.504 (24 s)
+epoch 13: loss 1.362, val acc 0.513, val F1 0.480 (24 s)
+epoch 14: loss 1.365, val acc 0.492, val F1 0.434 (24 s)
+epoch 15: loss 1.347, val acc 0.505, val F1 0.473 (23 s)
+epoch 16: loss 1.280, val acc 0.574, val F1 0.543 (24 s)
+epoch 17: loss 1.275, val acc 0.632, val F1 0.607 (24 s)
+epoch 18: loss 1.267, val acc 0.521, val F1 0.509 (23 s)
+epoch 19: loss 1.240, val acc 0.611, val F1 0.583 (25 s)
+epoch 20: loss 1.255, val acc 0.563, val F1 0.550 (24 s)
+epoch 21: loss 1.217, val acc 0.587, val F1 0.573 (24 s)
+epoch 22: loss 1.186, val acc 0.595, val F1 0.586 (23 s)
+epoch 23: loss 1.185, val acc 0.618, val F1 0.603 (24 s)
+epoch 24: loss 1.166, val acc 0.616, val F1 0.581 (25 s)
+epoch 25: loss 1.142, val acc 0.608, val F1 0.606 (25 s)
+epoch 26: loss 1.123, val acc 0.658, val F1 0.649 (26 s)
+epoch 27: loss 1.108, val acc 0.653, val F1 0.646 (28 s)
+epoch 28: loss 1.066, val acc 0.705, val F1 0.685 (26 s)
+epoch 29: loss 1.091, val acc 0.666, val F1 0.645 (27 s)
+epoch 30: loss 1.035, val acc 0.703, val F1 0.679 (25 s)
+epoch 31: loss 1.055, val acc 0.724, val F1 0.697 (25 s)
+epoch 32: loss 1.028, val acc 0.737, val F1 0.717 (26 s)
+epoch 33: loss 1.017, val acc 0.713, val F1 0.695 (25 s)
+epoch 34: loss 0.992, val acc 0.729, val F1 0.708 (24 s)
+epoch 35: loss 0.973, val acc 0.753, val F1 0.733 (24 s)
+epoch 36: loss 0.959, val acc 0.766, val F1 0.749 (24 s)
+epoch 37: loss 0.954, val acc 0.766, val F1 0.749 (24 s)
+epoch 38: loss 0.946, val acc 0.779, val F1 0.763 (26 s)
+epoch 39: loss 0.971, val acc 0.774, val F1 0.757 (26 s)
+epoch 40: loss 0.929, val acc 0.768, val F1 0.751 (25 s)
+[cnn] test accuracy = 0.7804, macro F1 = 0.7600
+Images: 2527, removed duplicates with different labels: 6, left: 2521
+Split 'block': train 1763, val 380, test 378
+Device: cpu
+Stage 1: training only the new last layer
+epoch 1: loss 1.400, val acc 0.724, val F1 0.686 (68 s)
+epoch 2: loss 1.089, val acc 0.782, val F1 0.745 (71 s)
+epoch 3: loss 1.041, val acc 0.753, val F1 0.722 (70 s)
+Stage 2: fine-tuning the whole network
+epoch 4: loss 0.971, val acc 0.858, val F1 0.846 (193 s)
+epoch 5: loss 0.803, val acc 0.882, val F1 0.861 (188 s)
+epoch 6: loss 0.752, val acc 0.889, val F1 0.875 (186 s)
+epoch 7: loss 0.675, val acc 0.895, val F1 0.878 (177 s)
+epoch 8: loss 0.656, val acc 0.905, val F1 0.890 (181 s)
+epoch 9: loss 0.632, val acc 0.918, val F1 0.902 (181 s)
+epoch 10: loss 0.623, val acc 0.916, val F1 0.898 (182 s)
+epoch 11: loss 0.612, val acc 0.911, val F1 0.899 (183 s)
+epoch 12: loss 0.604, val acc 0.913, val F1 0.903 (186 s)
+epoch 13: loss 0.603, val acc 0.916, val F1 0.907 (182 s)
+epoch 14: loss 0.599, val acc 0.916, val F1 0.905 (179 s)
+epoch 15: loss 0.609, val acc 0.916, val F1 0.905 (187 s)
+[effnet] test accuracy = 0.9312, macro F1 = 0.9196

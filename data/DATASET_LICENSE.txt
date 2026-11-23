@@ -1,0 +1,3 @@
+The dataset in data/dataset-resized is TrashNet by Gary Thung and Mindy Yang.
+Source: https://github.com/garythung/trashnet
+MIT License, Copyright (c) 2017 Gary Thung
